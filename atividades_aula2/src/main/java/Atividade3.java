@@ -11,7 +11,8 @@ public class Atividade3 {
         float totalDeVendas = teclado.nextFloat();
 
         // Processamento
-        salario = totalDeVendas * porcentagem + salario;
+        // salario = totalDeVendas * porcentagem + salario;
+        salario += totalDeVendas * porcentagem;
 
         // Saída
         System.out.printf("O vendedor receberá R$ %.2f esse mês",salario);
