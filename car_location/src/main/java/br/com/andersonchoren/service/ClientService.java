@@ -17,26 +17,33 @@ public class ClientService implements IService<ClientModel>{
     @Override
     public boolean insert(ClientModel object) {
         // TODO Inserir as validações
-        return false;
+        return clientRepository.insert(object);
     }
 
     @Override
     public List<ClientModel> findAll() {
-        return null;
+        return clientRepository.findAll();
     }
 
     @Override
     public Optional<ClientModel> findById(UUID id) {
-        return Optional.empty();
+        // TODO Inserir as validações
+        return clientRepository.findByID(id);
     }
 
     @Override
     public boolean update(ClientModel object) {
-        return false;
+        // TODO Inserir as validações
+        return clientRepository.update(object);
     }
 
     @Override
     public void delete(int position) {
+        // TODO Inserir as validações
+        clientRepository.delete(position);
+    }
 
+    public ClientModel findByName(String name){
+        return clientRepository.findByName(name);
     }
 }
