@@ -1,4 +1,4 @@
-package br.com.andersonchoren.model;
+package br.com.andersonchoren.car_location.model;
 
 import java.time.LocalDate;
 

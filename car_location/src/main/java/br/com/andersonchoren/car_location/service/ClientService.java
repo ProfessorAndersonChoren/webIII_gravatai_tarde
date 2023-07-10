@@ -1,7 +1,7 @@
-package br.com.andersonchoren.service;
+package br.com.andersonchoren.car_location.service;
 
-import br.com.andersonchoren.model.ClientModel;
-import br.com.andersonchoren.repository.ClientRepository;
+import br.com.andersonchoren.car_location.model.ClientModel;
+import br.com.andersonchoren.car_location.repository.ClientRepository;
 
 import java.util.List;
 import java.util.Optional;

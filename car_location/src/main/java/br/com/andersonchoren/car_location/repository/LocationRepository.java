@@ -1,6 +1,6 @@
-package br.com.andersonchoren.repository;
+package br.com.andersonchoren.car_location.repository;
 
-import br.com.andersonchoren.model.LocationModel;
+import br.com.andersonchoren.car_location.model.LocationModel;
 
 import java.util.ArrayList;
 import java.util.List;
